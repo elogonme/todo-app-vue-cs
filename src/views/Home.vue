@@ -4,8 +4,6 @@
       <img alt="Vue logo" src="../assets/logo.png" class="image is-48x48">
       <h1 class="title">Todo App with ODATA</h1>
     </div>
-
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <TodoList :todoes="todoes" :isLoading="isLoading" @onSave="saveTodo" @onAdd="addTodo" @onDelete="deleteTodo" />
   </div>
 </template>

@@ -27,7 +27,7 @@
       <ul>
         <li v-for="todo in todoes" :key="todo.Id" @click="handleClick(todo)">
           <div class=" columns is-vcentered has-background-light m-1">
-            <b-input class="column is-three-quarters has-text-left ml-4" v-model="todo.Name" :disabled="isClicked != todo.Id" />
+            <b-input class="column is-three-quarters has-text-left ml-1" v-model="todo.Name" :disabled="isClicked != todo.Id" />
             <b-checkbox size="is-large" v-model="todo.IsComplete" :disabled="isClicked != todo.Id" class="column" />
             <div class="column">
               <b-button type="is-success" outlined icon-right="content-save-outline" @click.stop="handleSave(todo)" :disabled="isClicked != todo.Id" />
@@ -44,11 +44,11 @@
 </template>
 
 <script>
-import Vue from "vue";
-import Buefy from "buefy";
-import "buefy/dist/buefy.css";
+// import Vue from "vue";
+// import Buefy from "buefy";
+// import "buefy/dist/buefy.css";
 
-Vue.use(Buefy);
+// Vue.use(Buefy);
 
 export default {
   name: "TodoList",
