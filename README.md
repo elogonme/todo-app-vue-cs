@@ -1,7 +1,7 @@
 # todo-vue2
 
 Todo App Front end - Vue2 with Buefy CSS Framework.
-Backend: C# Web API with ODATA
+Backend: C# Web API with ODATA database
 
 ## Project setup
 
